@@ -11,8 +11,6 @@ const Login = props => {
   const [passwordIsValid, setPasswordIsValid] = useState();
   const [formIsValid, setFormIsValid] = useState(false);
 
-  const input = ewdad;
-
   const emailChangeHandler = event => {
     setEnteredEmail(event.target.value);
 
